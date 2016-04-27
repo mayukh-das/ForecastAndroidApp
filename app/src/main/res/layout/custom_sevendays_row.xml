@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background="@color/com_facebook_likeboxcountview_text_color"
+    android:id="@+id/llSevenDays">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sunday, Nov 08"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:id="@+id/tvSevenDaysDate" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_weight="1.72"
+            android:id="@+id/ivSevenDaysPic"
+            android:layout_gravity="right"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Min: 55F | Max: 73F"
+            android:id="@+id/tvSevenDaysMinAndMax"
+            android:layout_gravity="fill"
+            android:layout_weight="1"
+            android:layout_alignBottom="@+id/ivSevenDaysPic"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

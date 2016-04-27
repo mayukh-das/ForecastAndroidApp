@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="primaryBlack">#000000</color>
+    <color name="primaryRed">#FF0000</color>
+    <color name="primaryBlue">#066990</color>
+    <color name="primaryWhite">#FFFFFF</color>
+    <color name="sevenYellow">#FFDB6A</color>
+    <color name="sevenBlue">#A0E7FF</color>
+    <color name="sevenPink">#FFC4EA</color>
+    <color name="sevenGreen">#C4FFA5</color>
+    <color name="sevenDarkPink">#FFBDB7</color>
+    <color name="sevenLime">#EFFFB5</color>
+    <color name="sevenIndigo">#BCBEFF</color>
+    <color name="twentyCyanFourHoursHeader">#84ECE6</color>
+    <color name="twentyGrayFourHoursRow">#CBCBCB</color>
+</resources>
